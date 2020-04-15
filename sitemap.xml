@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://nickjim.com 4/index.html</loc>
+    <lastmod>2020-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://nickjim.com 4/phone/index.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://nickjim.com 4/tablet/index.html"/>
+    <image:image>
+      <image:loc>http://nickjim.com 4/images/nickjimlogotransparentinverted.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nickjim.com 4/images/photography1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nickjim.com 4/images/poster_bttf.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nickjim.com 4/images/tattoo.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nickjim.com 4/images/spraypaint.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nickjim.com 4/images/music_camberly.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nickjim.com 4/images/logo_thedrop2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nickjim.com 4/images/zombie%20carrot%20walk%20loop.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nickjim.com 4/images/self-crop-u94.jpg</image:loc>
+    </image:image>
+  </url>
+</urlset>
