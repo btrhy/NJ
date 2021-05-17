@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100i,300" rel="stylesheet">
+
+<!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <link rel="stylesheet" href="plugins/remodal.css">
+    <link rel="stylesheet" href="plugins/remodal-default-theme.css">
+
+    <link rel="stylesheet" href="css/custom.css">
+
+<!-- JS / JQuery
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<!-- Start of remodal-bg wrapper
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="remodal-bg">
+
+<!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section id="header">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div id="landing-image">
+                    <img src="images/map_trail.png" width="50%" align="centre">
+                </div>
+
+                <div id="landing-heading">
+                    Greater Dates
+                </div>
+
+                <div id="landing-text">
+                    Multiple locations linked together. Create and discover amazing experiences.
+                </div>
+
+            </div>
+
+            <div class="twelve columns">
+                <i class="spacer">.</i>
+            </div>
+
+            <div class="row">
+                
+                <div class="twelve columns" id="landing-button-1">
+                    <a class="button" data-remodal-target="modal">Login</a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="twelve columns" id="landing-button-2">
+                    <a class="button2" data-remodal-target="modal-two">Sign Up</a> 
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- End of remodal-bg wrapper
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</div>
+
+<!-- Pop up - Login
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="remodal" data-remodal-id="modal">
+
+  <button data-remodal-action="close" class="remodal-close"></button>
+
+    <h4>Login</h4>
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <div class="twelve columns">
+        <a class="button" id="facebook-button" href="pages/home.html">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="spacer">.</i>
+            Facebook Login
+        </a>
+    </div>
+
+    <!-- -->
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <svg width="40" height="5">
+        <line x1="" y1="" x2="40" y2="" stroke-width="2" stroke="black"/>
+    </svg>
+
+    <i class="spacer">..</i>
+
+    Use Email
+
+    <i class="spacer">..</i>
+
+    <svg width="40" height="5">
+        <line x1="" y1="" x2="40" y2="" stroke-width="2" stroke="black"/>
+    </svg>
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <!-- -->
+
+    <form action=pages/home.html>
+
+        <div class="row">
+
+            <div class="twelve columns">
+                <label for="username"></label>
+                <input type="text" name="username" required placeholder="Username / Email">
+            </div>
+
+            <div class="twelve columns">
+                <label for="password"></label>
+                <input type="password" name="password" required placeholder="Password">
+            </div>
+
+            <i class="forgot-password" data-remodal-target="modal-three">Forgot Password?</i>
+            <br><br>
+
+            <div class="twelve columns">
+                <i class="spacer">.</i>
+            </div>
+
+            <div class="twelve columns">
+                <input type="submit" name="submit input" value="Login">
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
+
+<!-- Pop up - Sign Up
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="remodal" data-remodal-id="modal-two">
+
+  <button data-remodal-action="close" class="remodal-close"></button>
+
+    <h4>Sign Up</h4>
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <div class="twelve columns">
+        <a class="button" id="facebook-button" href="pages/facebook_connect.html">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="spacer">.</i>
+            Connect Facebook
+        </a>
+    </div>
+
+    <!-- -->
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <svg width="40" height="5">
+        <line x1="" y1="" x2="40" y2="" stroke-width="2" stroke="black"/>
+    </svg>
+
+    <i class="spacer">..</i>
+
+    Use Email
+
+    <i class="spacer">..</i>
+
+    <svg width="40" height="5">
+        <line x1="" y1="" x2="40" y2="" stroke-width="2" stroke="black"/>
+    </svg>
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <!-- -->
+
+    <form action="pages/home.html">
+
+        <div class="row">
+
+            <div class="twelve columns">
+                <label for="username"></label>
+                <input type="text" name="username" required placeholder="Username">
+            </div>
+
+            <div class="twelve columns">
+                <label for="email"></label>
+                <input type="email" name="email" required placeholder="Email">
+            </div>
+
+            <div class="twelve columns">
+                <label for="password"></label>
+                <input type="password" name="password" required placeholder="Password">
+            </div>
+
+            <div class="twelve columns">
+                <i class="spacer">.</i>
+            </div>
+
+            <div class="twelve columns">
+                <input type="submit" name="submit input" value="Sign Up">
+            </div>
+
+        </div>
+        
+    </form>
+
+</div>
+
+<!-- Pop up - Forgot Password
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="remodal" data-remodal-id="modal-three">
+
+  <button data-remodal-action="close" class="remodal-close"></button>
+
+    <h4>Password Recovery</h4>
+
+    <br>
+
+    <form action="javascript: history.go(-1)">
+
+        <div class="row">
+
+            <div class="twelve columns">
+                <label for="email"></label>
+                <input type="email" name="email" required placeholder="Email">
+            </div>
+
+            <div class="twelve columns">
+                <i class="spacer">.</i>
+            </div>
+
+            <div class="twelve columns">
+                <input type="submit" name="submit input" value="Send Email">
+            </div>
+
+        </div>
+        
+    </form>
+
+</div>
+
+<!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<script src="plugins/remodal.min.js"></script>
+
+<script> 
+
+    // A $( document ).ready() block.
+    $( document ).ready(function() {
+        console.log( "ooo eee let's do this" );
+    });
+
+</script>
+
+</body>
+</html>
