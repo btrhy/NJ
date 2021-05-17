@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100i,300" rel="stylesheet">
+
+<!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+
+    <link rel="stylesheet" href="../plugins/remodal.css">
+    <link rel="stylesheet" href="../plugins/remodal-default-theme.css">
+
+    <link rel="stylesheet" href="../css/custom.css">
+
+<!-- JS / JQuery
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+</head>
+<body>
+
+<!-- Start of remodal-bg wrapper
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="remodal-bg">
+
+<!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section id="header">
+
+        <div class="container">
+
+            <!-- Desktop -->
+
+            <div class="row text-align-center padding-top-200 desktop">
+                <div class="twelve columns">
+                    <img src="../images/app_logo.jpg">
+                </div>
+            </div>
+
+            <div class="row text-align-center padding-top-30 desktop">
+                <div class="twelve columns">
+                    <span style="font-size: 120%">
+                        <span style="font-weight: bold;">Greater Dates</span>
+                        <span style="font-weight: lighter;">will recieve the following info: your public profile, and personal description.</span>
+                    </span>
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    <br><br>
+                    <span style="color: blue; font-size: 110%">Edit the info you provide</span>
+                </div>
+            </div>
+            <div class="row text-align-center padding-top-150 desktop">
+                <div class="twelve columns">
+                    <span class="medium-light-grey">
+                        <br><br>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        This does not let the app post to Facebook.
+                    </span>
+                </div>
+            </div>
+
+            <div class="row padding-top-30 text-align-right padding-right-15 desktop">
+                <div class="twelve columns">
+                    <a class="button facebook-button_1" href="javascript: history.go(-1)">Cancel</a>
+                    <i class="spacer">...</i>
+                    <a class="button facebook-button_2" href="settings.html">OK</a>
+                </div>
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row text-align-center padding-top-50 mobile">
+                <div class="twelve columns">
+                    <img src="../images/app_logo.jpg">
+                </div>
+            </div>
+
+            <div class="row text-align-center padding-top-30 mobile">
+                <div class="twelve columns">
+                    <span style="font-size: 120%">
+                        <span style="font-weight: bold;">Greater Dates</span>
+                        <span style="font-weight: lighter;">will recieve the following info: your public profile, and personal description.</span>
+                    </span>
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    <br><br>
+                    <span style="color: blue; font-size: 110%">Edit the info you provide</span>
+                </div>
+            </div>
+            <div class="row text-align-center padding-top-30 mobile">
+                <div class="twelve columns">
+                    <span class="medium-light-grey">
+                        <br><br>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        This does not let the app post to Facebook.
+                    </span>
+                </div>
+            </div>
+
+            <div class="row padding-top-30 text-align-right padding-right-15 mobile">
+                <div class="twelve columns">
+                    <a class="button facebook-button_1" href="javascript: history.go(-1)">Cancel</a>
+                    <i class="spacer">...</i>
+                    <a class="button facebook-button_2" href="../pages/home.html">OK</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- End of remodal-bg wrapper
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</div>
+
+<!-- Pop up - Blank
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="remodal" data-remodal-id="modal">
+
+</div>
+
+<!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<script src="../plugins/remodal.min.js"></script>
+
+<script> 
+
+    // A $( document ).ready() block.
+    $( document ).ready(function() {
+        console.log( "ooo eee let's do this" );
+    });
+
+</script>
+
+</body>
+</html>

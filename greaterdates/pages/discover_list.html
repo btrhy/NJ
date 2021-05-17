@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100i,300" rel="stylesheet">
+
+<!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+
+    <link rel="stylesheet" href="../plugins/remodal.css">
+    <link rel="stylesheet" href="../plugins/remodal-default-theme.css">
+
+    <link rel="stylesheet" href="../plugins/jquery.mmenu.all.css">
+ 
+    <link rel="stylesheet" href="../css/custom.css">
+
+<!-- JQuery
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+</head>
+<body>
+<main>
+
+<!-- Start of remodal-bg wrapper
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="remodal-bg">
+
+<!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- Navigation -->
+
+    <section id="header">
+
+        <div class="container desktop" id="nav-main">
+
+            <!-- Desktop -->
+
+            <div class="row">
+
+                <div class="six columns" id="nav-main-brand">
+                    <a href="../pages/home_2.html">
+                        <img src="../images/logo.png" height="30px" id="nav-main-logo">
+                        GREATERDATES
+                    </a>
+                </div>
+
+                <div class="two columns" id="nav-main-item">
+                    <a  href="../pages/create.html">
+                        <i class="fa fa-map-marker little-bigger-1" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        Create
+                    </a>
+                </div>
+
+                <div class="two columns" id="nav-main-item">
+                    <a href="../pages/discover.html">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        Discover
+                    </a>
+                </div>
+
+                <div class="two columns" id="nav-main-burger">
+                    <a class="mh-hamburger" href="#menu">
+                        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <hr class="hidden">
+
+        </div>
+
+        <!-- Mobile -->
+
+        <div class="mobile" id="nav-main">
+
+                <div id="nav-main-brand">
+                    <a href="../pages/home_2.html">
+                        <img src="../images/logo.png" height="30px" id="nav-main-logo">
+                        GREATERDATES
+                    </a>
+                    <i class="spacer">...</i>
+                    
+                    <a class="mh-hamburger nav-main-burger" href="#menu">
+                        <i class="fa fa-bars little-bigger-2" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+            <hr class="hidden">
+
+        </div>
+
+    </section>
+
+    <section id="content" class="page">
+
+        <div class="container container-mobile">
+
+        <!-- Secondary Navigation -->
+
+            <!-- Desktop -->
+
+            <div class="row" id="discover-second-nav desktop">
+
+                <a class="discover-nav-a" href="../pages/discover.html">
+                    <div class="six columns text-align-center desktop discover-nav">
+                        <i class="fa fa-map little-bigger-2" aria-hidden="true"></i>
+                        <i class="spacer">...</i>
+                        <span class="discover-nav-text">Map</span>
+                    </div>
+                </a>
+
+                <a class="discover-nav-a-2" href="../pages/discover_list.html">
+                    <div class="six columns text-align-center desktop discover-nav-2">
+                        <i class="fa fa-list-ul little-bigger-2" aria-hidden="true"></i>
+                        <i class="spacer">...</i>
+                        <span class="discover-nav-text">List</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row" id="discover-second-nav-mobile mobile">
+
+
+                <a class="discover-nav-a-mobile" href="../pages/discover.html">
+                    <div class="six columns text-align-center mobile discover-nav-mobile">
+                        <i class="fa fa-map little-bigger-2" aria-hidden="true"></i>
+                        <i class="spacer">...</i>
+                        <span class="discover-nav-text-mobile">Map</span>
+                    </div>
+                </a>
+
+                <a class="discover-nav-a-2-mobile" href="../pages/discover_list.html">
+                    <div class="six columns text-align-center mobile discover-nav-2-mobile">
+                        <i class="fa fa-list-ul little-bigger-2" aria-hidden="true"></i>
+                        <i class="spacer">...</i>
+                        <span class="discover-nav-text-mobile">List</span>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="full-width-nav-bg"></div>
+
+        <!-- Content -->
+
+        <div class="row">
+            <div class="twelve columns discover-list-filter">
+                <a class="button" href="filter_3.html">
+                    <i class="fa fa-filter little-bigger-1" aria-hidden="true"></i>
+                    Filter Results
+                </a>
+            </div>
+        </div>
+
+        <div class="container padding-top-50">
+
+        <!-- Date 1 -->
+
+            <!-- Desktop -->
+
+            <div class="row desktop">
+
+                <div class="four columns discover-list-image text-align-right desktop">
+                    <a href="date_lovely_live.html">
+                        <img src="../images/lovely_live_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="eight columns desktop discover-list-data text-align-left">
+                    <a href="date_lovely_live.html">
+                        <span class="discover-list-text">Lovely Live</span>
+                        <i class="spacer">...</i>
+                        <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">6</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_love.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row mobile">
+
+                <div class="three columns discover-list-image text-align-right mobile">
+                    <a href="date_lovely_live.html">
+                        <img src="../images/lovely_live_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="five columns text-align-center mobile">
+                    <a href="date_lovely_live.html">
+                        <span class="discover-list-text">Lovely Live</span>
+                        <i class="spacer">...</i>
+                    </a>
+                </div>
+
+                <div class="four columns discover-list-data text-align-left mobile">
+                    <a href="date_lovely_live.html">
+                        <i class="fa fa-star little-bigger-2 yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">6</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_love.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <hr>
+            <br>
+
+        <!-- Date 2 -->
+
+            <!-- Desktop -->
+
+            <div class="row desktop">
+
+                <div class="four columns discover-list-image text-align-right desktop">
+                    <a href="date_eltham_cool_off.html">
+                        <img src="../images/eltham_cool_off_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="eight columns desktop discover-list-data text-align-left">
+                    <a href="date_eltham_cool_off.html">
+                        <span class="discover-list-text">Eltham Cool Off</span>
+                        <i class="spacer">...</i>
+                        <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">3</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_cool.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row mobile">
+
+                <div class="three columns discover-list-image text-align-right mobile">
+                    <a href="date_eltham_cool_off.html">
+                        <img src="../images/eltham_cool_off_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="five columns text-align-center mobile">
+                    <a href="date_eltham_cool_off.html">
+                        <span class="discover-list-text">Eltham Cool Off</span>
+                        <i class="spacer">...</i>
+                    </a>
+                </div>
+
+                <div class="four columns discover-list-data text-align-left mobile">
+                    <a href="date_eltham_cool_off.html">
+                        <i class="fa fa-star little-bigger-2 yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">3</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_cool.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <hr>
+            <br>
+
+        <!-- Date 3 -->
+
+            <!-- Desktop -->
+
+            <div class="row desktop">
+
+                <div class="four columns discover-list-image text-align-right desktop">
+                    <a href="date_fun_forest_adventure.html">
+                        <img src="../images/forest_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="eight columns desktop discover-list-data text-align-left">
+                    <a href="date_fun_forest_adventure.html">
+                        <span class="discover-list-text">Fun Forest Adventure</span>
+                        <i class="spacer">...</i>
+                        <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">8</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_smile.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row mobile">
+
+                <div class="three columns discover-list-image text-align-right mobile">
+                    <a href="date_fun_forest_adventure.html">
+                        <img src="../images/forest_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="five columns text-align-center mobile">
+                    <a href="date_fun_forest_adventure.html">
+                        <span class="discover-list-text">Fun Forest Adventure</span>
+                        <i class="spacer">...</i>
+                    </a>
+                </div>
+
+                <div class="four columns discover-list-data text-align-left mobile">
+                    <a href="date_fun_forest_adventure.html">
+                        <i class="fa fa-star little-bigger-2 yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">8</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_smile.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <hr>
+            <br>
+
+        <!-- Date 4 -->
+
+            <!-- Desktop -->
+
+            <div class="row desktop">
+
+                <div class="four columns discover-list-image text-align-right desktop">
+                    <a href="date_donuts_beaches.html">
+                        <img src="../images/donuts_beaches_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="eight columns desktop discover-list-data text-align-left">
+                    <a href="date_donuts_beaches.html">
+                        <span class="discover-list-text">Donuts &amp; Beaches</span>
+                        <i class="spacer">...</i>
+                        <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">10</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_cosy.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row mobile">
+
+                <div class="three columns discover-list-image text-align-right mobile">
+                    <a href="date_donuts_beaches.html">
+                        <img src="../images/donuts_beaches_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="five columns text-align-center mobile">
+                    <a href="date_donuts_beaches.html">
+                        <span class="discover-list-text">Donuts &amp; Beaches</span>
+                        <i class="spacer">...</i>
+                    </a>
+                </div>
+
+                <div class="four columns discover-list-data text-align-left mobile">
+                    <a href="date_donuts_beaches.html">
+                        <i class="fa fa-star little-bigger-2 yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">10</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_cosy.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <hr>
+            <br>
+
+        </div>
+
+        <div class="container">
+
+        <!-- Date 1 -->
+
+            <!-- Desktop -->
+
+            <div class="row desktop">
+
+                <div class="four columns discover-list-image text-align-right desktop">
+                    <a href="date_lovely_live.html">
+                        <img src="../images/lovely_live_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="eight columns desktop discover-list-data text-align-left">
+                    <a href="date_lovely_live.html">
+                        <span class="discover-list-text">Lovely Live</span>
+                        <i class="spacer">...</i>
+                        <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">6</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_love.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row mobile">
+
+                <div class="three columns discover-list-image text-align-right mobile">
+                    <a href="date_lovely_live.html">
+                        <img src="../images/lovely_live_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="five columns text-align-center mobile">
+                    <a href="date_lovely_live.html">
+                        <span class="discover-list-text">Lovely Live</span>
+                        <i class="spacer">...</i>
+                    </a>
+                </div>
+
+                <div class="four columns discover-list-data text-align-left mobile">
+                    <a href="date_lovely_live.html">
+                        <i class="fa fa-star little-bigger-2 yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">6</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_love.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <hr>
+            <br>
+
+        <!-- Date 2 -->
+
+            <!-- Desktop -->
+
+            <div class="row desktop">
+
+                <div class="four columns discover-list-image text-align-right desktop">
+                    <a href="date_eltham_cool_off.html">
+                        <img src="../images/eltham_cool_off_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="eight columns desktop discover-list-data text-align-left">
+                    <a href="date_eltham_cool_off.html">
+                        <span class="discover-list-text">Eltham Cool Off</span>
+                        <i class="spacer">...</i>
+                        <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">3</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_cool.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row mobile">
+
+                <div class="three columns discover-list-image text-align-right mobile">
+                    <a href="date_eltham_cool_off.html">
+                        <img src="../images/eltham_cool_off_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="five columns text-align-center mobile">
+                    <a href="date_eltham_cool_off.html">
+                        <span class="discover-list-text">Eltham Cool Off</span>
+                        <i class="spacer">...</i>
+                    </a>
+                </div>
+
+                <div class="four columns discover-list-data text-align-left mobile">
+                    <a href="date_eltham_cool_off.html">
+                        <i class="fa fa-star little-bigger-2 yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">3</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_cool.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <hr>
+            <br>
+
+        <!-- Date 3 -->
+
+            <!-- Desktop -->
+
+            <div class="row desktop">
+
+                <div class="four columns discover-list-image text-align-right desktop">
+                    <a href="date_fun_forest_adventure.html">
+                        <img src="../images/forest_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="eight columns desktop discover-list-data text-align-left">
+                    <a href="date_fun_forest_adventure.html">
+                        <span class="discover-list-text">Fun Forest Adventure</span>
+                        <i class="spacer">...</i>
+                        <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">8</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_smile.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row mobile">
+
+                <div class="three columns discover-list-image text-align-right mobile">
+                    <a href="date_fun_forest_adventure.html">
+                        <img src="../images/forest_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="five columns text-align-center mobile">
+                    <a href="date_fun_forest_adventure.html">
+                        <span class="discover-list-text">Fun Forest Adventure</span>
+                        <i class="spacer">...</i>
+                    </a>
+                </div>
+
+                <div class="four columns discover-list-data text-align-left mobile">
+                    <a href="date_fun_forest_adventure.html">
+                        <i class="fa fa-star little-bigger-2 yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">8</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_smile.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <hr>
+            <br>
+
+        <!-- Date 4 -->
+
+            <!-- Desktop -->
+
+            <div class="row desktop">
+
+                <div class="four columns discover-list-image text-align-right desktop">
+                    <a href="date_donuts_beaches.html">
+                        <img src="../images/donuts_beaches_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="eight columns desktop discover-list-data text-align-left">
+                    <a href="date_donuts_beaches.html">
+                        <span class="discover-list-text">Donuts &amp; Beaches</span>
+                        <i class="spacer">...</i>
+                        <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">10</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_cosy.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row mobile">
+
+                <div class="three columns discover-list-image text-align-right mobile">
+                    <a href="date_donuts_beaches.html">
+                        <img src="../images/donuts_beaches_cover_square.jpg">
+                    </a>
+                </div>
+
+                <div class="five columns text-align-center mobile">
+                    <a href="date_donuts_beaches.html">
+                        <span class="discover-list-text">Donuts &amp; Beaches</span>
+                        <i class="spacer">...</i>
+                    </a>
+                </div>
+
+                <div class="four columns discover-list-data text-align-left mobile">
+                    <a href="date_donuts_beaches.html">
+                        <i class="fa fa-star little-bigger-2 yellow" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        <span class="discover-list-rating">10</span>
+                        <i class="spacer">....</i>
+                        <img src="../images/emoji_cosy.png">
+                    </a>
+                </div>
+
+            </div>
+            
+            <br>
+
+        </div>
+
+        <hr class="spacer">
+        <hr class="spacer">
+
+    </section>
+
+<!-- End of remodal-bg wrapper
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</div>
+
+    <!-- Sliding Menu -->
+
+    <aside>
+
+        <div id="menu">
+
+            <ul>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/create.html">
+                        <br>
+                        <i class="spacer">...</i>
+                        <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">....</i> Create
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/discover.html">
+                        <i class="spacer">.</i>
+                        <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">..</i> Discover
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/saved.html">
+                        <i class="spacer">..</i>
+                        <i class="fa fa-bookmark fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">....</i> Saved
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/user.html">
+                        <i class="spacer">.</i>
+                        <i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">...</i> Martin Dziuba
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-child">
+                    <a href="../pages/friends.html">
+                        <i class="spacer">.......</i>
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <i class="spacer">.....</i> Friends
+
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-child">
+                    <a href="../pages/drafts.html">
+                        <i class="spacer">.......</i>
+                        <i class="fa fa-file-text" aria-hidden="true"></i>
+                        <i class="spacer">.....</i> Drafts
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-child">
+                    <a href="../pages/settings.html">
+                        <i class="spacer">.......</i>
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                        <i class="spacer">.....</i> Settings
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </aside>
+
+</main>
+
+<!-- Pop up - Blank
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="remodal" data-remodal-id="modal">
+
+  <button data-remodal-action="close" class="remodal-close"></button>
+
+    <h4>Blank</h4>
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <div class="twelve columns">
+        <a class="button" id="facebook-button">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="spacer">.</i>
+            Blank Popup
+        </a>
+    </div>
+
+    <!-- -->
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <svg width="40" height="5">
+        <line x1="" y1="" x2="40" y2="" stroke-width="2" stroke="black"/>
+    </svg>
+
+    <i class="spacer">..</i>
+
+    Use Email
+
+    <i class="spacer">..</i>
+
+    <svg width="40" height="5">
+        <line x1="" y1="" x2="40" y2="" stroke-width="2" stroke="black"/>
+    </svg>
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <!-- -->
+
+    <form action=pages/home_2.html>
+
+        <div class="row">
+
+            <div class="twelve columns">
+                <label for="username"></label>
+                <input type="text" name="username" required placeholder="Username / Email">
+            </div>
+
+            <div class="twelve columns">
+                <label for="password"></label>
+                <input type="password" name="password" required placeholder="Password">
+            </div>
+
+            <div class="twelve columns">
+                <i class="spacer">.</i>
+            </div>
+
+            <div class="twelve columns">
+                <input type="submit" name="submit input" value="Login">
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
+
+<!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- marker 1 -->
+
+    <!-- Makes Post Visible -->
+
+    <script type="text/javascript">
+        $('.marker-1').click( function() {
+        $("#post-1").toggleClass("display-none");
+        } );
+    </script>
+
+    <!-- Shows Marker As Clicked -->
+
+    <script type="text/javascript">
+        $('.marker-1').click( function() {
+        $(".marker-1").toggleClass("fa-4x red");
+        } );
+    </script>
+
+<!-- marker 2 -->
+
+    <!-- Clicks Other Post Simultaneously -->
+
+<!--     <script type="text/javascript">
+        $(document).on('click', '.marker-2', function(e) {
+            $(".marker-1").trigger('click');
+        });
+    </script> -->
+
+    <!-- Makes Post Visible -->
+
+    <script type="text/javascript">
+        $('.marker-2').click( function() {
+        $("#post-2").toggleClass("display-none");
+        } );
+    </script>
+
+    <!-- Shows Marker As Clicked -->
+
+    <script type="text/javascript">
+        $('.marker-2').click( function() {
+        $(".marker-2").toggleClass("fa-4x red");
+        } );
+    </script>
+
+
+<script src="../plugins/remodal.min.js"></script>
+
+<script> 
+
+    // A $( document ).ready() block.
+    $( document ).ready(function() {
+        console.log( "ooo eee let's do this" );
+    });
+
+</script>
+
+<script type="text/javascript" src="../plugins/jquery.mmenu.all.js"></script>
+
+<script type="text/javascript">
+         jQuery(document).ready(function( $ ) {
+            $("#menu").mmenu();
+         });
+</script>
+
+</body>
+</html>

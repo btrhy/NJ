@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100i,300" rel="stylesheet">
+
+<!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+
+    <link rel="stylesheet" href="../plugins/remodal.css">
+    <link rel="stylesheet" href="../plugins/remodal-default-theme.css">
+
+    <link rel="stylesheet" href="../plugins/jquery.mmenu.all.css">
+ 
+    <link rel="stylesheet" href="../css/custom.css">
+
+<!-- JQuery
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+</head>
+<body>
+<main>
+
+<!-- Start of remodal-bg wrapper
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="remodal-bg">
+
+<!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- Navigation -->
+
+    <section id="header">
+
+        <div class="container desktop" id="nav-main">
+
+            <!-- Desktop -->
+
+            <div class="row">
+
+                <div class="six columns" id="nav-main-brand">
+                    <a href="../pages/home_2.html">
+                        <img src="../images/logo.png" height="30px" id="nav-main-logo">
+                        GREATERDATES
+                    </a>
+                </div>
+
+                <div class="two columns" id="nav-main-item">
+                    <a  href="../pages/create.html">
+                        <i class="fa fa-map-marker little-bigger-1" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        Create
+                    </a>
+                </div>
+
+                <div class="two columns" id="nav-main-item">
+                    <a href="../pages/discover.html">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        Discover
+                    </a>
+                </div>
+
+                <div class="two columns" id="nav-main-burger">
+                    <a class="mh-hamburger" href="#menu">
+                        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <hr>
+
+        </div>
+
+        <!-- Mobile -->
+
+        <div class="mobile" id="nav-main">
+
+                <div id="nav-main-brand">
+                    <a href="../pages/home_2.html">
+                        <img src="../images/logo.png" height="30px" id="nav-main-logo">
+                        GREATERDATES
+                    </a>
+                    <i class="spacer">...</i>
+                    
+                    <a class="mh-hamburger nav-main-burger" href="#menu">
+                        <i class="fa fa-bars little-bigger-2" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+            <hr>
+
+        </div>
+
+    </section>
+
+    <!-- Content -->
+
+    <section id="content" class="page">
+
+        <div class="container">
+
+            <div class="row settings-save">
+                <div class="twelve columns">
+                    <a href="discover_2.html">
+                        <i class="fa fa-caret-left little-bigger-3" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        Save
+                    </a>
+                </div>
+            </div>
+
+            <div class="row settings-title">
+                <div class="twelve columns">
+                    <h4>Filter Results</h4>
+                </div>
+            </div>
+
+            <br>
+
+            <hr class="desktop" style="width: 70%; margin-top: -10px;">
+            <hr class="mobile" style="width: 70%; margin-top: -20px;">
+
+            <div class="row settings-section">
+                <div class="twelve columns">
+                    <h5>Users</h5>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container container-checkboxes">
+
+            <div class="row settings-checkboxes">
+                <div class="twelve columns">
+                    <form>
+                        <input type="checkbox" name="everyone" value="everyone" checked>
+                        <i class="spacer">.</i>Others<br>
+
+                        <input type="checkbox" name="friends only" value="friends only" checked>
+                        <i class="spacer">.</i>Friends<br>
+
+                        <input type="checkbox" name="no one" value="no one" checked>
+                        <i class="spacer">.</i>My Dates<br>
+                  </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <hr class="desktop" style="width: 70%; margin-top: -10px;">
+            <hr class="mobile" style="width: 70%; margin-top: -20px;">
+
+            <div class="row settings-section">
+                <div class="twelve columns">
+                    <h5>Transport</h5>
+                </div>
+            </div>
+            
+            <div class="row settings-button">
+                <div class="twelve columns">
+                    <span class="button" data-remodal-target="modal-location">Add Transport</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <br><br>
+
+            <hr class="desktop" style="width: 70%; margin-top: -10px;">
+            <hr class="mobile" style="width: 70%; margin-top: -20px;">
+                
+            <div class="row settings-section">
+                <div class="twelve columns">
+                    <h5>Rating</h5>
+                </div>
+            </div>
+
+            <div class="row text-align-center">
+                <div class="twelve columns rate-stars">
+                    <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-2x yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-2x grey" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-2x grey" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <br><br>
+
+            <hr class="desktop" style="width: 70%; margin-top: -10px;">
+            <hr class="mobile" style="width: 70%; margin-top: -20px;">
+                
+            <div class="row settings-section">
+                <div class="twelve columns">
+                    <h5>Mood</h5>
+                </div>
+            </div>
+
+            <div class="row settings-button">
+                <div class="twelve columns">
+                    <span class="button" data-remodal-target="modal-password">Add Mood</span>
+                </div>
+            </div>
+
+            <br><br>
+
+            <hr class="desktop" style="width: 70%; margin-top: -10px;">
+            <hr class="mobile" style="width: 70%; margin-top: -20px;">
+            
+            <div class="row settings-section">
+                <div class="twelve columns">
+                    <h5>Waypoints</h5>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container container-checkboxes">
+
+            <div class="row settings-checkboxes">
+                <div class="twelve columns">
+                    <form>
+                        <input type="checkbox" name="everyone" value="everyone" checked>
+                        <i class="spacer">.</i>All Waypoints<br>
+
+                        <input type="checkbox" name="friends only" value="friends only" checked>
+                        <i class="spacer">.</i>Starts Only<br>
+                  </form>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="spacer">
+
+            <div class="row settings-button">
+                <div class="twelve columns">
+                    <a href="discover_2.html">
+                        <span class="button2">Save Filters</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="spacer">
+        <hr class="spacer">
+
+    </section>
+
+<!-- End of remodal-bg wrapper
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</div>
+
+    <!-- Sliding Menu -->
+
+    <aside>
+
+        <div id="menu">
+
+            <ul>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/create.html">
+                        <br>
+                        <i class="spacer">...</i>
+                        <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">....</i> Create
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/discover.html">
+                        <i class="spacer">.</i>
+                        <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">..</i> Discover
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/saved.html">
+                        <i class="spacer">..</i>
+                        <i class="fa fa-bookmark fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">....</i> Saved
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/user.html">
+                        <i class="spacer">.</i>
+                        <i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">...</i> Martin Dziuba
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-child">
+                    <a href="../pages/friends.html">
+                        <i class="spacer">.......</i>
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <i class="spacer">.....</i> Friends
+
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-child">
+                    <a href="../pages/drafts.html">
+                        <i class="spacer">.......</i>
+                        <i class="fa fa-file-text" aria-hidden="true"></i>
+                        <i class="spacer">.....</i> Drafts
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-child">
+                    <a href="../pages/settings.html">
+                        <i class="spacer">.......</i>
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                        <i class="spacer">.....</i> Settings
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </aside>
+
+</main>
+
+<!-- Pop up - Add Transport
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="remodal" data-remodal-id="modal-location">
+
+  <button data-remodal-action="close" class="remodal-close"></button>
+
+    <h4>Add Transport</h4>
+
+    <div class="row">
+        <div class="twelve columns">
+            <label for="locations"></label>
+            <input type="search" name="locations" required placeholder="Search Transport">
+        </div>
+    </div>
+
+    <hr class="spacer">
+    <hr class="spacer">
+    <hr class="spacer">
+    <hr class="spacer">
+    <hr class="spacer">
+    <hr class="spacer">
+    <hr class="spacer">
+    <hr class="spacer">
+    <hr class="spacer">
+
+</div>
+
+<!-- Pop up - Change Password
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="remodal" data-remodal-id="modal-password">
+
+  <button data-remodal-action="close" class="remodal-close"></button>
+
+    <h4>Change Password</h4>
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <form action=settings.html>
+
+        <div class="row">
+
+            <div class="twelve columns">
+                <label for="password"></label>
+                <input type="password" name="password" required placeholder="Old Password">
+            </div>
+
+            <div class="twelve columns">
+                <label for="password"></label>
+                <input type="password" name="password" required placeholder="New Password">
+            </div>
+
+            <div class="twelve columns">
+                <label for="password"></label>
+                <input type="password" name="password" required placeholder="Confirm New Password">
+            </div>
+
+            <div class="twelve columns">
+                <i class="spacer">.</i>
+            </div>
+
+            <div class="twelve columns padding-top-10">
+                <input type="submit" name="submit input" value="Change">
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
+
+<!-- Pop up - Delete Account
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="remodal" data-remodal-id="modal-delete">
+
+  <button data-remodal-action="close" class="remodal-close"></button>
+
+    <h4>Delete Account</h4>
+
+    <hr class="spacer">
+
+    <div class="row text-align-center">
+        <div class="twelve columns">
+            <span class="settings-delete-1">Whoah hold up there cowboy!</span>
+        </div>
+    </div>
+
+    <hr class="spacer">
+
+    <div class="row text-align-center">
+        <div class="twelve columns">
+            <a href="../images/long_egg.html">
+                <i class="fa fa-hand-paper-o fa-5x grey" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
+    <hr class="spacer">
+
+    <span class="settings-delete-2">
+        <h5>Are you sure you want to delete your account</h5>
+        This action can't be undone
+    </span>
+
+    <div class="row padding-top-20">
+        <div class="twelve columns">
+            <a href="settings.html">
+                <span class="button settings-delete-3">CANCEL</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="twelve columns padding-top-40 padding-bottom-20">
+            <a href="../index.html">
+                <span class="button settings-delete-4">Delete</span>
+            </a>
+        </div>
+    </div>   
+
+
+
+</div>
+
+<!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- Hides Locations -->
+
+    <script type="text/javascript">
+        $('.minus').click( function() {
+        $(".minus-target").toggleClass("display-none");
+        } );
+    </script>
+
+    <script type="text/javascript">
+        $('.minus-2').click( function() {
+        $(".minus-target-2").toggleClass("display-none");
+        } );
+    </script>
+
+    <script type="text/javascript">
+        $('.piss-off').click( function() {
+        $(".nick").toggleClass("display-none");
+        } );
+    </script>
+
+
+<script src="../plugins/remodal.min.js"></script>
+
+<script> 
+
+    // A $( document ).ready() block.
+    $( document ).ready(function() {
+        console.log( "ooo eee let's do this" );
+    });
+
+</script>
+
+<script type="text/javascript" src="../plugins/jquery.mmenu.all.js"></script>
+
+<script type="text/javascript">
+         jQuery(document).ready(function( $ ) {
+            $("#menu").mmenu();
+         });
+</script>
+
+</body>
+</html>

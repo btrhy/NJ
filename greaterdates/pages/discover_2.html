@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100i,300" rel="stylesheet">
+
+<!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+
+    <link rel="stylesheet" href="../plugins/remodal.css">
+    <link rel="stylesheet" href="../plugins/remodal-default-theme.css">
+
+    <link rel="stylesheet" href="../plugins/jquery.mmenu.all.css">
+ 
+    <link rel="stylesheet" href="../css/custom.css">
+
+<!-- JQuery
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+</head>
+<body>
+<main>
+
+<!-- Start of remodal-bg wrapper
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="remodal-bg">
+
+<!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- Navigation -->
+
+    <section id="header">
+
+        <div class="container desktop" id="nav-main">
+
+            <!-- Desktop -->
+
+            <div class="row">
+
+                <div class="six columns" id="nav-main-brand">
+                    <a href="../pages/home_2.html">
+                        <img src="../images/logo.png" height="30px" id="nav-main-logo">
+                        GREATERDATES
+                    </a>
+                </div>
+
+                <div class="two columns" id="nav-main-item">
+                    <a  href="../pages/create.html">
+                        <i class="fa fa-map-marker little-bigger-1" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        Create
+                    </a>
+                </div>
+
+                <div class="two columns" id="nav-main-item">
+                    <a href="../pages/discover.html">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        Discover
+                    </a>
+                </div>
+
+                <div class="two columns" id="nav-main-burger">
+                    <a class="mh-hamburger" href="#menu">
+                        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <hr class="hidden">
+
+        </div>
+
+        <!-- Mobile -->
+
+        <div class="mobile" id="nav-main">
+
+                <div id="nav-main-brand">
+                    <a href="../pages/home_2.html">
+                        <img src="../images/logo.png" height="30px" id="nav-main-logo">
+                        GREATERDATES
+                    </a>
+                    <i class="spacer">...</i>
+                    
+                    <a class="mh-hamburger nav-main-burger" href="#menu">
+                        <i class="fa fa-bars little-bigger-2" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+            <hr class="hidden">
+
+        </div>
+
+    </section>
+
+    <section id="content" class="page">
+
+        <div class="container container-mobile">
+
+        <!-- Secondary Navigation -->
+
+            <!-- Desktop -->
+
+            <div class="row" id="discover-second-nav desktop">
+
+                <a class="discover-nav-a-2" href="../pages/discover.html">
+                    <div class="six columns text-align-center desktop discover-nav-2">
+                        <i class="fa fa-map little-bigger-2" aria-hidden="true"></i>
+                        <i class="spacer">...</i>
+                        <span class="discover-nav-text">Map</span>
+                    </div>
+                </a>
+
+                <a class="discover-nav-a" href="../pages/discover_list.html">
+                    <div class="six columns text-align-center desktop discover-nav">
+                        <i class="fa fa-list-ul little-bigger-2" aria-hidden="true"></i>
+                        <i class="spacer">...</i>
+                        <span class="discover-nav-text">List</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row" id="discover-second-nav-mobile mobile">
+
+                <a class="discover-nav-a-2-mobile" href="../pages/discover.html">
+                    <div class="six columns text-align-center mobile discover-nav-2-mobile">
+                        <i class="fa fa-map little-bigger-2" aria-hidden="true"></i>
+                        <i class="spacer">...</i>
+                        <span class="discover-nav-text-mobile">Map</span>
+                    </div>
+                </a>
+
+                <a class="discover-nav-a-mobile" href="../pages/discover_list.html">
+                    <div class="six columns text-align-center mobile discover-nav-mobile">
+                        <i class="fa fa-list-ul little-bigger-2" aria-hidden="true"></i>
+                        <i class="spacer">...</i>
+                        <span class="discover-nav-text-mobile">List</span>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="full-width-nav-bg"></div>
+
+        <div class="container">
+
+        <!-- Content -->
+
+            <div class="row text-align-center padding-top-20">
+                <div class="twelve columns">
+                        <input type="search" name="search locations" placeholder="search map" style="width: 40%;">
+                </div>
+            </div>
+
+            <!-- Map - Desktop -->
+
+            <div class="row desktop padding-top-10">
+                <div class="twelve columns text-align-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15741.24771916759!2d145.10873614149293!3d-37.717482507047045!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1509502454429" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Map - Mobile -->
+
+            <div class="row mobile padding-top-10">
+                <div class="twelve columns text-align-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15741.24771916759!2d145.10873614149293!3d-37.717482507047045!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1509502454429" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Marker 1 -->
+
+                <i class="fa fa-map-marker fa-3x marker-1" aria-hidden="true"></i>
+
+            <!-- Marker 2 -->
+
+                <!-- <i class="fa fa-map-marker fa-3x marker-2" aria-hidden="true"></i> -->
+
+            <!-- Filter Results -->
+
+            <div class="twelve columns padding-top-30 padding-bottom-20 text-align-center">
+                    <a class="button" href="filter_2.html">
+                        <i class="fa fa-filter little-bigger-1" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        Filter Results
+                    </a>
+                    <br>
+                    <span class="filters-active">Filters Active</span>
+            </div>
+
+        </div>
+
+        <!-- Post 1 -->
+        
+        <div class="container display-none post-1" id="post-1">
+
+            <hr style="width: 70%">
+            <br>
+
+            <!-- Start Post Data -->
+        
+            <div class="row" id="post-header">
+
+                    <div class="five columns" id="post-user-image">
+                        <a href="user_martin_dziuba.html">
+                            <img class="img-circle" src="../images/face_1.jpg" width="60px">
+                        </a>
+                    </div>
+
+                    <div class="seven columns" id="post-description">
+                        <a href="user_martin_dziuba.html">
+                            <div class="post-user">Martin Dziuba</div>
+                        </a>
+                        <a href="date_fun_forest_adventure.html">
+                            <div class="post-name">Fun Forest Adventure</div>
+                        </a>
+                    </div>
+
+            </div>
+
+            <br>
+
+            <!-- Desktop Images -->
+
+            <div class="row" id="post-images">
+
+                <a href="date_fun_forest_adventure.html">
+                
+                    <div class="three columns desktop">
+                        <img class="post-image" src="../images/fun_forest_adventure1.jpg">
+                    </div>
+
+                    <div class="three columns desktop">
+                        <img class="post-image" src="../images/fun_forest_adventure2.jpg">
+                    </div>
+                    
+                    <div class="three columns desktop">
+                        <img class="post-image" src="../images/fun_forest_adventure3.jpg">
+                    </div>
+
+                    <div class="three columns desktop">
+                        <img class="post-image" src="../images/fun_forest_adventure4.jpg">
+                    </div>
+
+                </a>
+
+            </div>
+
+            <!-- Mobile Images -->
+
+            <div class="row" id="post-images">
+
+                <a href="date_fun_forest_adventure.html">
+                
+                    <div class="six columns mobile">
+                        <img class="post-image" src="../images/fun_forest_adventure1.jpg">
+                    </div>
+
+                    <div class="six columns mobile">
+                        <img class="post-image" src="../images/fun_forest_adventure2.jpg">
+                    </div>
+
+                </a>
+
+            </div>
+
+            <div class="row" id="post-images">
+
+                <a href="date_fun_forest_adventure.html">
+                
+                    <div class="six columns mobile">
+                        <img class="post-image" src="../images/fun_forest_adventure3.jpg">
+                    </div>
+
+                    <div class="six columns mobile">
+                        <img class="post-image" src="../images/fun_forest_adventure4.jpg">
+                    </div>
+
+                </a>
+
+            </div>
+
+            <!-- End Post Data -->
+
+            <div class="row" id="post-data">
+                
+                December 15th / 2016
+                <i class="spacer">.........</i>
+                <img id="post-emoji" src="../images/emoji_smile.png" width="30px">
+                <i class="spacer">......</i>
+                <i class="fa fa-star fa-2x" aria-hidden="true" id="star"></i><i class="spacer">..</i><i class="rating">8</i>
+                
+            </div>
+
+            <div class="row">
+                
+                <a href="https://open.spotify.com/user/1274488687/playlist/4NilC5lwhL2P9XBiJlxrtK">
+                    <div class="twelve columns" id="post-music">
+                    <i class="fa fa-music fa-2x" aria-hidden="true"></i>
+                    <i class="spacer">....</i>
+                    <i class="post-music-name">#Subtle Twang</i>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="row text-align-center">
+                <div class="twelve columns padding-top-40">
+                    <a class="button" href="date_fun_forest_adventure.html">
+                        <i class="fa fa-eye little-bigger-2" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        View Date
+                    </a>
+                </div>
+            </div>
+            <div class="row text-align-center">
+                <div class="twelve columns padding-top-20">
+                    <a class="button2" href="begin_fun_forest_adventure1.html">
+                        <i class="fa fa-arrow-up little-bigger-2" aria-hidden="true"></i>
+                        <i class="spacer">.</i>
+                        Begin Date
+                    </a>
+                </div>
+            </div>
+
+            <br>
+
+        </div>
+
+        <!-- Post 2 -->
+        
+        <div class="container display-none post-2" id="post-2">
+
+            <hr style="width: 70%">
+            <br>
+
+            <!-- Start Post Data -->
+        
+            <div class="row" id="post-header">
+
+                    <div class="five columns" id="post-user-image">
+                        <a href="user_ben_rhyder.html">
+                            <img class="img-circle" src="../images/face_3.jpg" width="60px">
+                        </a>
+                    </div>
+
+                    <div class="seven columns" id="post-description">
+                        <a href="user_martin_dziuba.html">
+                            <div class="post-user">Ben Rhyder</div>
+                        </a>
+                        <a href="date_fun_forest_adventure.html">
+                            <div class="post-name">Eltham Cool Off</div>
+                        </a>
+                    </div>
+
+            </div>
+
+            <br>
+
+            <!-- Desktop Images -->
+
+            <div class="row" id="post-images">
+                
+                <a href="date_eltham_cool_off.html">
+
+                    <div class="four columns desktop">
+                        <img class="post-image" src="../images/eltham_cool_off1.jpg">
+                    </div>
+
+                    <div class="four columns desktop">
+                        <img class="post-image" src="../images/eltham_cool_off2.jpg">
+                    </div>
+                    
+                    <div class="four columns desktop">
+                        <img class="post-image" src="../images/eltham_cool_off3.jpg">
+                    </div>
+
+                </a>
+
+            </div>
+
+            <!-- Mobile Images -->
+
+            <div class="row" id="post-images">
+
+                <a href="date_eltham_cool_off.html">
+                
+                    <div class="six columns mobile">
+                        <img class="post-image" src="../images/eltham_cool_off1.jpg">
+                    </div>
+
+                    <div class="six columns mobile">
+                        <img class="post-image" src="../images/eltham_cool_off2.jpg">
+                    </div>
+
+                </a>
+
+            </div>
+
+            <div class="row" id="post-images">
+                
+                <div class="six columns mobile">
+                    <img class="post-image" src="../images/eltham_cool_off3.jpg">
+                </div>
+
+            </div>
+
+            <!-- End Post Data -->
+
+            <div class="row" id="post-data">
+                
+                July 12th / 2016
+                <i class="spacer">.........</i>
+                <img id="post-emoji" src="../images/emoji_cool.png" width="30px">
+                <i class="spacer">......</i>
+                <i class="fa fa-star fa-2x" aria-hidden="true" id="star"></i><i class="spacer">..</i><i class="rating">3</i>
+                
+            </div>
+
+            <div class="row">
+                
+                <a href="https://open.spotify.com/user/1274488687/playlist/5D7IRgHB1pu5vhdpT1VxEm">
+                    <div class="twelve columns" id="post-music">
+                    <i class="fa fa-music fa-2x" aria-hidden="true"></i>
+                    <i class="spacer">....</i>
+                    <i class="post-music-name">#Cactus Smash</i>
+                    </div>
+                </a>
+
+                <div class="row text-align-center">
+                    <div class="twelve columns padding-top-40">
+                        <a class="button" href="date_eltham_cool_off.html">
+                            <i class="fa fa-eye little-bigger-2" aria-hidden="true"></i>
+                            <i class="spacer">.</i>
+                            View Date
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-align-center">
+                    <div class="twelve columns padding-top-20">
+                        <a class="button2" href="begin_eltham_cool_off1.html">
+                            <i class="fa fa-arrow-up little-bigger-2" aria-hidden="true"></i>
+                            <i class="spacer">.</i>
+                            Begin Date
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+            
+        </div>
+
+        <hr class="spacer">
+        <hr class="spacer">
+
+    </section>
+
+<!-- End of remodal-bg wrapper
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</div>
+
+    <!-- Sliding Menu -->
+
+    <aside>
+
+        <div id="menu">
+
+            <ul>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/create.html">
+                        <br>
+                        <i class="spacer">...</i>
+                        <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">....</i> Create
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/discover.html">
+                        <i class="spacer">.</i>
+                        <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">..</i> Discover
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/saved.html">
+                        <i class="spacer">..</i>
+                        <i class="fa fa-bookmark fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">....</i> Saved
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-main">
+                    <a href="../pages/user.html">
+                        <i class="spacer">.</i>
+                        <i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>
+                        <i class="spacer">...</i> Martin Dziuba
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-child">
+                    <a href="../pages/friends.html">
+                        <i class="spacer">.......</i>
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <i class="spacer">.....</i> Friends
+
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-child">
+                    <a href="../pages/drafts.html">
+                        <i class="spacer">.......</i>
+                        <i class="fa fa-file-text" aria-hidden="true"></i>
+                        <i class="spacer">.....</i> Drafts
+                    </a>
+                </li>
+
+                <li class="white" id="sliding-menu-child">
+                    <a href="../pages/settings.html">
+                        <i class="spacer">.......</i>
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                        <i class="spacer">.....</i> Settings
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </aside>
+
+</main>
+
+<!-- Pop up - Blank
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="remodal" data-remodal-id="modal">
+
+  <button data-remodal-action="close" class="remodal-close"></button>
+
+    <h4>Blank</h4>
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <div class="twelve columns">
+        <a class="button" id="facebook-button">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="spacer">.</i>
+            Blank Popup
+        </a>
+    </div>
+
+    <!-- -->
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <svg width="40" height="5">
+        <line x1="" y1="" x2="40" y2="" stroke-width="2" stroke="black"/>
+    </svg>
+
+    <i class="spacer">..</i>
+
+    Use Email
+
+    <i class="spacer">..</i>
+
+    <svg width="40" height="5">
+        <line x1="" y1="" x2="40" y2="" stroke-width="2" stroke="black"/>
+    </svg>
+
+    <div class="twelve columns">
+        <i class="spacer">.</i>
+    </div>
+
+    <!-- -->
+
+    <form action=pages/home_2.html>
+
+        <div class="row">
+
+            <div class="twelve columns">
+                <label for="username"></label>
+                <input type="text" name="username" required placeholder="Username / Email">
+            </div>
+
+            <div class="twelve columns">
+                <label for="password"></label>
+                <input type="password" name="password" required placeholder="Password">
+            </div>
+
+            <div class="twelve columns">
+                <i class="spacer">.</i>
+            </div>
+
+            <div class="twelve columns">
+                <input type="submit" name="submit input" value="Login">
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
+
+<!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- marker 1 -->
+
+    <!-- Makes Post Visible -->
+
+    <script type="text/javascript">
+        $('.marker-1').click( function() {
+        $("#post-1").toggleClass("display-none");
+        } );
+    </script>
+
+    <!-- Shows Marker As Clicked -->
+
+    <script type="text/javascript">
+        $('.marker-1').click( function() {
+        $(".marker-1").toggleClass("fa-4x red shifted-1");
+        } );
+    </script>
+
+<!-- marker 2 -->
+
+    <!-- Makes Post Visible -->
+
+    <script type="text/javascript">
+        $('.marker-2').click( function() {
+        $("#post-2").toggleClass("display-none");
+        } );
+    </script>
+
+    <!-- Shows Marker As Clicked -->
+
+    <script type="text/javascript">
+        $('.marker-2').click( function() {
+        $(".marker-2").toggleClass("fa-4x red shifted-2");
+        } );
+    </script>
+
+    <!-- Auto Scroll -->
+
+    <script type="text/javascript">
+        $(".marker-1").click(function() {
+            $('html,body').animate({
+                scrollTop: $(".post-1").offset().top},
+                'slow');
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(".marker-2").click(function() {
+            $('html,body').animate({
+                scrollTop: $(".post-2").offset().top},
+                'slow');
+        });
+    </script>
+
+
+
+<script src="../plugins/remodal.min.js"></script>
+
+<script> 
+
+    // A $( document ).ready() block.
+    $( document ).ready(function() {
+        console.log( "ooo eee let's do this" );
+    });
+
+</script>
+
+<script type="text/javascript" src="../plugins/jquery.mmenu.all.js"></script>
+
+<script type="text/javascript">
+         jQuery(document).ready(function( $ ) {
+            $("#menu").mmenu();
+         });
+</script>
+
+</body>
+</html>
